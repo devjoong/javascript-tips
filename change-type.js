@@ -21,3 +21,9 @@ console.log("int to string ex 1 : " + typeof is);
 
 const is2 = 1 + "";
 console.log("int to string ex 2 : " + typeof is2);
+
+// float -> int
+console.log(12.3 | 0);  // 양수면 버림
+console.log(12.7 | 0);
+console.log(-12.3 | 0); // 음수면 올림
+console.log(-12.7 | 0);
