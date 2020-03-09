@@ -1,3 +1,6 @@
+
+// object를 가지고 undefined 오류나지 않도록 이용하기
+
 const car = {
     brand: 'Renault',
     model: 'Megane',
