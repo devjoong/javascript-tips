@@ -67,7 +67,6 @@ console.log(Object.keys(car));
 // 하지만 map을 이용하면 keys 명령어를 통해 key들을 가져올 수 있고
 // iterator로 만들어지기 때문에 next 명령어로 바로 돌려볼 수 있습니다.
 const keys = carr.keys();
-let k;
-while(k = keys.next().value) {
-    console.log(k);
+for(let key of keys) {
+    console.log(key);
 }
